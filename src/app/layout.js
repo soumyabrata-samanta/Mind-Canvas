@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer'
 import { ThemeContextProvider } from '../context/ThemeContext'
 import ThemeProvider from '../providers/ThemeProvider'
 import AuthProvider from '../providers/AuthProvider'
+import Contact from './contact/page'
 
 const inter = Inter({ subsets: ['latin'] });
 
