@@ -15,7 +15,7 @@ const MenuPosts = ({withImage}) => {
           </div>)}
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.travel}`}>Travel</span>
-            <h3 className={styles.postTitle}>Tracing South America's Living Cultures as a Traveler</h3>
+            <h3 className={styles.postTitle}>Tracing South America&apos;s Living Cultures as a Traveler</h3>
             <div className={styles.detail}>
               <span className={styles.username}>Ankan Samanta</span>
               <span className={styles.date}> - 2024-02-04</span>
@@ -30,7 +30,7 @@ const MenuPosts = ({withImage}) => {
           </div>)}
           <div className={styles.textContainer}>
             <span className={`${styles.category} ${styles.culture}`}>Culture</span>
-            <h3 className={styles.postTitle}>Unveiling the Rich Tapestry of Bengal's Cultural Heritage</h3>
+            <h3 className={styles.postTitle}>Unveiling the Rich Tapestry of Bengal&apos;s Cultural Heritage</h3>
             <div className={styles.detail}>
               <span className={styles.username}>Ankan Samanta</span>
               <span className={styles.date}> - 2024-02-04</span>
