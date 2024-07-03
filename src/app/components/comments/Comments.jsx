@@ -20,7 +20,7 @@ const fetcher = async(url) =>{
 const Comments = ({postSlug}) => {
   const {status} = useSession();
 
-  const {data,mutate,isLoading}=useSWR(`https://mind-canvas-git-main-soumyabrata-samantas-projects.vercel.app/api/comments?postSlug=${postSlug}`,fetcher); 
+  const {data,mutate,isLoading}=useSWR(`https://mind-canvas-gray.vercel.app/api/comments?postSlug=${postSlug}`,fetcher); 
 
   const [desc,setDesc]=useState("");
   const handleSubmit = async()=>{
