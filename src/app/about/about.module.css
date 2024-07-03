@@ -68,3 +68,11 @@
     font-size: 30px;
    }
 }
+@media screen and (max-width: 640px){
+    .title{
+        font-size:36px;
+    }
+    .textContainer{
+    font-size: 22px;
+   }
+}
