@@ -27,7 +27,7 @@ const Footer = () => {
         width={18} height={18}
          onClick={() => window.open('https://www.instagram.com/boddo_bhaabuke?igsh=MWJiZ2NiaWhmNXZvbQ==')}
         />
-        <Image src="/linkedin.png" alt="" 
+        <Image src="/Linkedin.png" alt="" 
         width={18} height={18}
         onClick={() => window.open('https://www.linkedin.com/in/soumyabrata-samanta-429037246')}
         />
