@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 
 const getData = async ()=>{
-  const res = await fetch("https://mind-canvas-git-main-soumyabrata-samantas-projects.vercel.app/api/categories",{
+  const res = await fetch("https://mind-canvas-gray.vercel.app/api/categories",{
       cache:"no-store",
   });
   if(!res.ok){
